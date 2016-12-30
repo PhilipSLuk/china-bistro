@@ -1,3 +1,15 @@
+/******************************************************************
+ *
+ * Copyright (C) 2016 Philip Luk - All Rights Reserved
+ *
+ * Coursera John Hopkins University HTML/CSS/JavaScript Course 2016
+ * https://github.com/jhu-ep-coursera/fullstack-course4
+ *
+ * This file is subject to the terms and conditions defined in
+ * file 'LICENSE.txt', which is part of this source code package.
+ *
+ ******************************************************************/
+
 // *******************************
 // START HERE IF YOU WANT A MORE CHALLENGING STARTING POINT FOR THIS ASSIGNMENT
 // *******************************
