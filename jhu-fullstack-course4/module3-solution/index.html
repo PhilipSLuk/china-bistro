@@ -1,0 +1,111 @@
+<!--
+/******************************************************************
+ *
+ * Copyright (C) 2016 Philip Luk - All Rights Reserved
+ *
+ * Coursera John Hopkins University HTML/CSS/JavaScript Course 2016
+ * https://github.com/jhu-ep-coursera/fullstack-course4
+ *
+ * This file is subject to the terms and conditions defined in
+ * file 'LICENSE.txt', which is part of this source code package.
+ *
+ ******************************************************************/
+ -->
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Desktop: md (992px), Tablet: sm (768px), Mobile: xs (544px) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment Solution for Module 3</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <!-- ***** HEADER CONTENT ***** -->
+  <header>
+    <!-- http://getbootstrap.com/components/#navbar -->
+    <!-- DONE: Create a navbar that scrolls away together with the page using -->
+    <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <!-- DONE: navbar should have a company name aligned to left -->
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Food, LLC</h1></a>
+          </div> <!-- End of .navbar-brand -->
+          <!-- DONE: For desktop (768px) and tablet (576px) view, the navbar should not contain anything else. No other buttons should be visible. -->
+          <!-- DONE: Create a simple menu button (3 horizontal bars) -->
+          <button type="button" class="visible-xs navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div> <!-- End of .navbar-header -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <!-- DONE: the navbar should not contain anything else. No other buttons should be visible.-->
+          <ul id="nav-list" class="visible-xs nav navbar-nav navbar-right">
+            <!-- DONE: dropdown menu should contain 3 items: Chicken, Beef, and Sushi -->
+            <li><a href="#chicken-tile">Chicken</a></li>
+            <li><a href="#beef-tile">Beef</a></li>
+            <li><a href="#sushi-tile">Sushi</a></li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+
+      </div> <!-- End of .container -->
+    </nav> <!-- End of #header-nav -->
+  </header>
+  <!-- ***** END HEADER CONTENT ***** -->
+  
+  <!-- ***** MAIN CONTENT ***** -->
+  <div id="main-content" class="container-fluid">
+    <!-- DONE: page heading that says Our Menu should be centered within the browser window using Bootstrap class that centers text -->
+    <div id="menu-title"><h1 class="text-center">Our Menu</h1></div>
+    <div id="menu-tiles" class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="menu-item-tile">
+          <h3 id="chicken-tile" class="text-center">Chicken</h3>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Chicken chicken chicken. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Chicken chicken chicken. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <br><br>
+          <div>(End of Chicken section) <a href="#main-content">[Back to Top]</a></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="menu-item-tile">
+          <h3 id="beef-tile" class="text-center">Beef</h3>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Beef beef beef. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Beef beef beef. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <br><br>
+          <div>(End of Beef section) <a href="#main-content">[Back to Top]</a></div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-4">
+        <div class="menu-item-tile">
+          <h3 id="sushi-tile" class="text-center">Sushi</h3>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sushi sushi sushi. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sushi sushi sushi. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <br><br>
+          <div>(End of Sushi section) <a href="#main-content">[Back to Top]</a></div>
+        </div>
+      </div>
+    </div> <!-- End of #menu-tiles -->
+  </div> <!-- End of #main-content -->
+  <!-- ***** END MAIN CONTENT ***** -->
+
+  <!-- ***** FOOTER CONTENT ***** -->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row"></div>
+      <div class="text-center">&copy; Copyright Food, LLC 2016</div>
+    </div>
+  </footer>
+  <!-- ***** END FOOTER CONTENT ***** -->
+  
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
