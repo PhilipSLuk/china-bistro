@@ -1,4 +1,16 @@
-// STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
+/******************************************************************
+ *
+ * Copyright (C) 2016 Philip Luk - All Rights Reserved
+ *
+ * Coursera John Hopkins University HTML/CSS/JavaScript Course 2016
+ * https://github.com/jhu-ep-coursera/fullstack-course4
+ *
+ * This file is subject to the terms and conditions defined in
+ * file 'LICENSE.txt', which is part of this source code package.
+ *
+ ******************************************************************/
+
+ // STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE
 // See Lecture 52, part 2
 (function (window) {
 
