@@ -1,4 +1,13 @@
-(function (global) {
+/******************************************************************
+ *
+ * Copyright (C) 2016 Yaakov Chaikin - All Rights Reserved
+ *
+ * Coursera John Hopkins University HTML/CSS/JavaScript Course 2016
+ * https://github.com/jhu-ep-coursera/fullstack-course4
+ *
+ ******************************************************************/
+ 
+ (function (global) {
 
 // Set up a namespace for our utility
 var ajaxUtils = {};
