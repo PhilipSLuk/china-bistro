@@ -17,10 +17,10 @@ In this course, we will learn the basic tools that every web page coder needs to
 
 <ul>
   <li>Assignment One (none)</li>
-  <li><a href="module2-solution/index.html">Assignment Two</a></li>
-  <li><a href="module3-solution/index.html">Assignment Three</a></li>
-  <li><a href="module4-solution/index.html">Assignment Four</a></li>
-  <li><a href="module5-solution/index.html">Assignment Five</a></li>
+  <li><a href="https://fortyfunbobby.github.io/coursera-projects/jhu-fullstack-course4/module2-solution/index.html">Assignment Two</a></li>
+  <li><a href="https://fortyfunbobby.github.io/coursera-projects/jhu-fullstack-course4/module3-solution/index.html">Assignment Three</a></li>
+  <li><a href="https://fortyfunbobby.github.io/coursera-projects/jhu-fullstack-course4/module4-solution/index.html">Assignment Four</a></li>
+  <li><a href="https://fortyfunbobby.github.io/coursera-projects/jhu-fullstack-course4/module5-solution/index.html">Assignment Five</a></li>
 </ul>
 
 ### Official course lecture notes and sample code

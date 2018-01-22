@@ -18,13 +18,7 @@ In this course, we will explore how to build web applications with the Ruby on R
 ### Assignment Solutions
 
 <ul>
-  <li>Assignment One (none)</li>
-<!--
-  <li><a href="module2-solution/index.html">Assignment Two</a></li>
-  <li><a href="module3-solution/index.html">Assignment Three</a></li>
-  <li><a href="module4-solution/index.html">Assignment Four</a></li>
-  <li><a href="module5-solution/index.html">Assignment Five</a></li>
--->
+  <li><a href="module1-solution/index.html">Assignment One</a></li>
 </ul>
 
 ### Official course lecture notes and sample code

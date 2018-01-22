@@ -17,13 +17,7 @@ In this course, we will explore the core design of AngularJS 1.x (latest version
 
 
 <ul>
-  <li><a href="module1-solution/index.html">Assignment One</a></li>
-<!--
-  <li><a href="module2-solution/index.html">Assignment Two</a></li>
-  <li><a href="module3-solution/index.html">Assignment Three</a></li>
-  <li><a href="module4-solution/index.html">Assignment Four</a></li>
-  <li><a href="module5-solution/index.html">Assignment Five</a></li>
--->
+  <li><a href="https://fortyfunbobby.github.io/coursera-projects/jhu-fullstack-course5/module1-solution/index.html">Assignment One</a></li>
 </ul>
 
 
