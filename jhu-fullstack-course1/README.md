@@ -18,14 +18,6 @@ In this course, we will explore how to build web applications with the Ruby on R
 ### Assignment Solutions
 
 <ul>
-  <li>Assignment One (none)</li>
-<!--
-  <li><a href="module2-solution/index.html">Assignment Two</a></li>
--->
+  <li><a href="assignments-week1">Assignment One</a></li>
+  <li><a href="assignments-week2">Assignment Two</a></li>
 </ul>
-
-### Official course lecture notes and sample code
-
-<!--
-<a href="https://github.com/jhu-ep-coursera/fullstack-course3-module1">https://github.com/jhu-ep-coursera/fullstack-course3-module1</a>
--->
