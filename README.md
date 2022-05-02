@@ -16,7 +16,7 @@ In this course, we will learn the basic tools that every web page coder needs to
 ### Assignment Solutions
 
 <ul>
-  <li><a href="https://PhilipSLuk.github.io/coursera-projects/jhu-fullstack-course4/module5-solution/index.html">Assignment Five</a></li>
+  <li><a href="https://philipsluk.github.io/china-bistro/">Assignment Five</a></li>
 </ul>
 
 ### Official course lecture notes and sample code
